@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আবহাওয়া/Weather/मौसम</title>
+    <link rel="icon" href="./images/Drizzle.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Anton&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Skranji:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Weather Dashboard</h1>
+    <div class="container">
+        <div class="weather-input">
+            <h2>Enter a city name</h2>
+            <input type="text" placeholder="Eg:- Kolkata,London etc ....." class="city-input">
+            <button class="search-btn">Search</button>
+            <div class="separator"></div>
+            <button id="location-btn">Use Current Location</button>
+<div class="flag-displayer">
+            <img id="flag" src="https://flagsapi.com/BT/flat/64.png">
+        </div>
+</div>
+<div class="weather-data">
+    <div class="current-weather">
+        <div class="details">
+        <h2 class="city-name">________   ________    </h2>
+        <h3 class="tempu">Temperature:_________</h3>
+        <h3 class="windu" >Wind:__________</h3>
+        <h3 class="humu">Humidity:__________</h3>
+    </div>
+    <div class="icon">
+        <img  src="./images/Clear.png" alt="pic">
+        <h3>__________</h3>
+    </div>
+    </div>
+    <div class="forecast-report">
+        <h2>5-Day Forecast</h2>
+        <div class="card-container">
+        <div class="weather-card">
+<h3>________</h3>
+<img src="./images/rain.png" alt="pic">
+<h3>Temperature:_____</h3>
+<h3>Wind:________</h3>
+<h3>Humidity:________</h3>
+        </div>
+        <div class="weather-card">
+            <h3>________</h3>
+            <img src="./images/rain.png" alt="pic">
+            <h3>Temperature:_____</h3>
+            <h3>Wind:________</h3>
+            <h3>Humidity:________</h3>
+                    </div>
+                    <div class="weather-card">
+                        <h3>________</h3>
+                        <img src="./images/rain.png" alt="pic">
+                        <h3>Temperature:_____</h3>
+                        <h3>Wind:________</h3>
+                        <h3>Humidity:________</h3>
+                                </div>
+                                <div class="weather-card">
+                                    <h3>________</h3>
+                                    <img src="./images/rain.png" alt="pic">
+                                    <h3>Temperature:_____</h3>
+                                    <h3>Wind:________</h3>
+                                    <h3>Humidity:________</h3>
+                                            </div>
+                                            <div class="weather-card">
+                                                <h3>________</h3>
+                                                <img src="./images/rain.png" alt="pic">
+                                                <h3>Temperature:_____</h3>
+                                                <h3>Wind:________</h3>
+                                                <h3>Humidity:________</h3>
+                                                        </div>
+                                                    </div>
+    </div>
+</div>
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
